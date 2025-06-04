@@ -2,160 +2,166 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> YOGO ABDOULAYE </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YOGO ABDOULAYE </title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f2f2f2;
+      background: #f4f4f4;
       color: #333;
     }
     .container {
-      max-width: 960px;
-      margin: 40px auto;
-      background: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
       display: flex;
       flex-direction: row;
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .left-column {
-      background-color: #003366;
+    .left {
+      width: 35%;
+      background: #003366;
       color: white;
       padding: 30px 20px;
-      width: 35%;
     }
-    .right-column {
-      padding: 30px 40px;
+    .right {
       width: 65%;
+      padding: 30px 40px;
     }
-    h1, h2 {
-      color: #003366;
+    h1, h2, h3 {
       margin-top: 0;
     }
-    h3 {
-      margin-bottom: 5px;
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
       color: #003366;
+      font-size: 20px;
+      margin-bottom: 10px;
     }
-    .section {
-      margin-bottom: 30px;
-    }
-    .item {
-      margin-bottom: 15px;
+    h3 {
+      margin: 5px 0;
+      color: #003366;
     }
     ul {
       padding-left: 20px;
     }
-    .contact-info {
-      font-size: 0.95rem;
-      line-height: 1.6;
+    .section {
+      margin-bottom: 25px;
     }
-    .skill-list {
-      list-style-type: none;
+    .skill-list, .lang-list, .certif-list {
+      list-style: none;
       padding: 0;
     }
-    .skill-list li::before {
-      content: "• ";
-      color: #fff;
+    .skill-list li, .lang-list li, .certif-list li {
+      margin-bottom: 8px;
     }
   </style>
 </head>
 <body>
 
 <div class="container">
-  <div class="left-column">
-    <h2>Yogo Abdoulaye</h2>
-    <p class="contact-info">
-      📍 Patte d’Oie, Ouagadougou<br/>
-      📞 (+226) 64 24 61 44 / 53 65 43 89<br/>
-      ✉️ yogoa845@gmail.com<br/>
-    </p>
-    <h3>Compétences</h3>
-    <ul class="skill-list">
-      <li>Support informatique</li>
-      <li>Maintenance informatique</li>
-      <li>Développement Web (HTML, CSS, PHP)</li>
-      <li>Réseaux informatiques (Cisco, Mikrotik)</li>
-      <li>Infographie (Photoshop, Illustrator, Canva)</li>
-      <li>Marketing digital & community management</li>
-    </ul>
-    <h3>Langues</h3>
-    <ul class="skill-list">
-      <li>Français : Courant</li>
-      <li>Anglais : Intermédiaire</li>
-    </ul>
-  </div>
-
-  <div class="right-column">
+  <div class="left">
+    <h1>Yogo Abdoulaye</h1>
+    <p><strong>Adresse:</strong> Patte d’Oie, Ouagadougou</p>
+    <p><strong>Tél:</strong> +226 64 24 61 44 / 53 65 43 89</p>
+    <p><strong>Email:</strong> yogoa845@gmail.com</p>
     <div class="section">
-      <h1>Profil</h1>
+      <h2>Compétences</h2>
+      <ul class="skill-list">
+        <li><strong>Support IT :</strong> maintenance, diagnostic, assistance</li>
+        <li><strong>Développement web :</strong> HTML, CSS, JS, PHP, MySQL</li>
+        <li><strong>Réseaux informatiques :</strong> Mikrotik, Cisco, VSAT, IP</li>
+        <li><strong>Infographie :</strong> Canva, Photoshop, Illustrator</li>
+        <li><strong>Marketing digital :</strong> community management, emailing</li>
+        <li><strong>Sécurité :</strong> ESET Admin Console, surveillance</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul class="certif-list">
+        <li>Formation en Administrateur Réseaux Informatique </li>
+        <li>ESET Sales Partner </li>
+        <li>ESET B2B Technical Expert </li>
+        <li>ESET B2B Sales Specialist </li>
+        <li>ESET Technical Partner</li>
+        <li>ESET B2C Sales Specialist </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Langues</h2>
+      <ul class="lang-list">
+        <li>Français : Courant</li>
+        <li>Anglais : Intermédiaire</li>
+        <li>Moore / Dioula : Notions</li>
+      </ul>
+    </div>
+  </div> <!-- fin de la colonne gauche -->
+  <div class="right">
+    <div class="section">
+      <h2>Profil</h2>
       <p>
-        Technicien en Développement Web et Réseaux Informatiques avec plus de 3 ans d’expérience dans le support IT, la maintenance, l’infographie et le marketing digital. Capable de diagnostiquer et résoudre efficacement les problèmes techniques, tout en contribuant à la transformation numérique des entreprises.
+        Technicien en développement web et en réseaux informatiques, avec plus de trois ans d’expérience dans le support IT, la maintenance, 
+        l’infographie et le marketing digital. Rigoureux, polyvalent et orienté résultats, je me distingue par ma capacité à diagnostiquer 
+        rapidement les problèmes techniques, à proposer des solutions efficaces et à contribuer activement à la transformation numérique 
+        des entreprises.
       </p>
     </div>
 
     <div class="section">
       <h2>Expériences professionnelles</h2>
-      <div class="item">
-        <h3>Technico-commercial (Réseau & Marketing Digital) - TROPICOM</h3>
-        <p>Janv 2024 - Fév 2025</p>
-        <ul>
-          <li>Support IT et configuration de points d’accès</li>
-          <li>Installation et maintenance VSAT</li>
-          <li>Assistance marketing digital et communication</li>
-          <li>Maintenance informatique et réseaux</li>
-        </ul>
-      </div>
-      <div class="item">
-        <h3>Stagiaire Réseau & Programmation - TROPICOM</h3>
-        <p>Juin 2023 - Déc 2024</p>
-        <ul>
-          <li>Support IT et configuration</li>
-          <li>Maintenance réseaux et VSAT</li>
-        </ul>
-      </div>
-      <div class="item">
-        <h3>Développeur Web Stagiaire - KAFYKA</h3>
-        <p>Juin 2022 - Déc 2022</p>
-        <ul>
-          <li>Création d’une plateforme de gestion</li>
-          <li>Formateur en infographie</li>
-          <li>Installation de caméras et systèmes de sécurité</li>
-        </ul>
-      </div>
-      <div class="item">
-        <h3>Agent de collecte de données - CICORES</h3>
-        <p>Avr 2023 – Mai 2023 / Nov 2021 – Déc 2021</p>
-        <ul>
-          <li>Collecte mobile et traitement de données</li>
-        </ul>
-      </div>
-    </div>
 
+      <h3>Technico-commercial - TROPICOM (Janv 2024 - Fév 2025)</h3>
+      <ul>
+        <li>Installation et maintenance de VSAT et points d’accès</li>
+        <li>Support technique et détection de pannes réseaux</li>
+        <li>Maintenance et assistance utilisateurs (PC, imprimantes, onduleurs)</li>
+        <li>Participation à la stratégie marketing digital et création de visuels</li>
+      </ul>
+
+      <h3>Stagiaire Réseaux & Programmation - TROPICOM (Juin 2023 - Déc 2024)</h3>
+      <ul>
+        <li>Support IT de premier niveau, configuration d’équipements réseau</li>
+        <li>Suivi et assistance technique sur sites clients</li>
+        <li>Maintenance informatique </li>
+      </ul>
+
+      <h3>Stagiaire Développeur Web - KAFYKA (Juin 2022 - Déc 2022)</h3>
+      <ul>
+        <li>Développement d’une plateforme web de gestion</li>
+        <li>Formateur en infographie pour jeunes étudiants</li>
+        <li>Installation de caméras, alarmes et systèmes de contrôle d’accès</li>
+      </ul>
+
+      <h3>Enquêteur - CICORES Burkina (2021 & 2023)</h3>
+      <ul>
+        <li>Collecte de données terrain via mobile (apps KoboCollect, SurveyCTO)</li>
+        <li>Respect de la confidentialité et transmission structurée</li>
+      </ul>
+    </div>
     <div class="section">
       <h2>Formations</h2>
-      <div class="item">
-        <h3>Licence Professionnelle en Réseaux Informatiques</h3>
-        <p>Université Aube Nouvelle (U-AUBEN)</p>
-      </div>
-      <div class="item">
-        <h3>Licence en Informatique de Gestion</h3>
-        <p>Université Joseph Ki Zerbo</p>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Certifications</h2>
       <ul>
-        <li>Introduction au Marketing Digital - Google</li>
-        <li>Entrepreneuriat Numérique - ODCI</li>
-        <li>Community Management - ODCI</li>
+        <li><strong>Licence professionnelle en Informatique de Gestion</strong> – Université Africaine(UA) (en cours)</li>
+        <li><strong>Baccalauréat série D </strong> – Lycée Moderne KLV de Méagui</li>
       </ul>
     </div>
 
-  </div>
-</div>
+    <div class="section">
+      <h2>Références</h2>
+      <ul>
+        <li>Directeur Technique – TROPICOM - tèl: (+226) 70 72 08 59 </li>
+        <li>Fondateur – KAFYKA - Tèl: (+226) 70 84 34 52</li>
+        <li>Responsable Technique – KAFYKA - Tèl:  (+226) 72 43 65 06 </li>
+      </ul>
+    </div>
+
+  </div> <!-- fin de la colonne droite -->
+</div> <!-- fin du container -->
 
 </body>
 </html>
